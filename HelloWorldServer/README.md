@@ -3,7 +3,7 @@ cd <HelloWorldServer>
 
 2. run project in IDE or via docker:
 
--Publish local docker container
+-Publish local docker container:
 sudo sbt docker:publishLocal
 
 -Run local container:
