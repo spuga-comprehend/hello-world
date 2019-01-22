@@ -1,5 +1,6 @@
 1. Install node: 
 sudo apt install nodejs
+
 node -v
 
 2. Install npm (usr/bin/node): 
@@ -10,6 +11,7 @@ npm i -g create-react-app
 
 4. Get all components: 
 cd <root project folder - hello-world-client>
+
 npm install
 
 5. Run project: 
@@ -18,7 +20,8 @@ npm start
 or Run via docker:
 
 5. Publish new local docker container: 
-cd <root project folder - hello-world-client>
+cd <root project folder - hello-world-client
+
 sudo docker build . -t react-docker
 
 6. Run local docker container: 
